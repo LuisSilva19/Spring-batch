@@ -1,19 +1,21 @@
-#
-#spring:
-#  datasource:
-#    driver-class-name: org.postgresql.Driver
-#    url: jdbc:postgresql://localhost:5432/springbootdb
-#    username: postgres
-#    password: 12345
-#    # JPA properties
-#    jpa:
-#      hibernate:
-#        ddl-auto: create-drop
-#      show-sql: true
-#      database: postgresql
-#      database-platform: org.hibernate.dialect.PostgreSQLDialect
-#      open-in-view: false
-#      generate-ddl: true
-#  batch:
-#    jdbc:
-#      initialize-schema: "always"
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/springbootdb
+    username: postgres
+    password: 12345
+    # JPA properties
+    jpa:
+      hibernate:
+        ddl-auto: create-drop
+      show-sql: true
+      database: postgresql
+      database-platform: org.hibernate.dialect.PostgreSQLDialect
+      open-in-view: false
+      generate-ddl: true
+  batch:
+    jdbc:
+      initialize-schema: "always"
+server:
+  port: 8090
