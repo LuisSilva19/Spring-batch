@@ -11,7 +11,7 @@ public class PropsConfig {
     @Bean
     public PropertySourcesPlaceholderConfigurer config(){
         PropertySourcesPlaceholderConfigurer conf = new PropertySourcesPlaceholderConfigurer();
-        conf.setLocation(new FileSystemResource("../confSpringBatch/application.properties"));
+        conf.setLocation(new FileSystemResource("../../confSpringBatch/application.properties"));
         return conf;
     }
 }
