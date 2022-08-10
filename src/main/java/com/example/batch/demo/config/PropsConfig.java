@@ -8,12 +8,12 @@ import org.springframework.core.io.FileSystemResource;
 @Configuration
 public class PropsConfig {
 
-    @Bean
-    public PropertySourcesPlaceholderConfigurer config(){
-        PropertySourcesPlaceholderConfigurer conf = new PropertySourcesPlaceholderConfigurer();
-        conf.setLocation(new FileSystemResource("../../confSpringBatch/application.properties"));
-        return conf;
-    }
+//    @Bean
+//    public PropertySourcesPlaceholderConfigurer config(){
+//        PropertySourcesPlaceholderConfigurer conf = new PropertySourcesPlaceholderConfigurer();
+//        conf.setLocation(new FileSystemResource("../../confSpringBatch/application.properties"));
+//        return conf;
+//    }
 }
 
 
